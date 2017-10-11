@@ -1,0 +1,32 @@
+body
+{
+background-color: cornflowerblue    
+}
+#naamheader{
+    padding-left: 40%;
+}
+#h1PersoonlijkeGegevens
+{
+    padding-left: 40%;
+}
+#fotovoorpagina
+{
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
+}
+#fotoGOT
+{
+
+}
+#fotoEntourage
+{
+    margin-left: 5%;
+}
+#fotoVikings
+{
+    margin-left: 5%
+}
