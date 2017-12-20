@@ -1,0 +1,43 @@
+body{
+    background-image: url("afbeeldingen/background.png");
+    padding: 0;
+    margin: 0;
+}
+#CenterBox{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    border: 2px solid black;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    width: 50%;
+    height: 50%;
+    color: white;
+    background: rgba(54, 25, 25, .5);
+
+}
+#CenterBox h1#Wie{
+    margin-left: 45%;
+}
+#CenterBox h1#Wat{
+    margin-left: 45%;
+}
+#CenterBox h1#Waar{
+    margin-left: 44%;
+}
+#CenterBox h1#Wanneer{
+    margin-left: 42%;
+}
+#CenterBox p#antwoordWie{
+    margin-left: 41%;
+}
+#CenterBox p#antwoordWat{
+    margin-left: 45%;
+}
+#CenterBox p#antwoordWaar{
+    margin-left: 38%;
+}
+#CenterBox p#antwoordWanneer{
+    margin-left: 44%;
+}
