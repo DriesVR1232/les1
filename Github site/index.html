@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hoofdpagina</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+<body>
+
+<div class="Header" id="MijnHeader">
+  <a href="index.html" class="active">Home</a>
+  <a href="Pagina2.html">Informatie patiënten</a>
+  <a href="Pagina3.html" >Contacteer ons</a>
+  <a href="Pagina4.html">Info familie</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("MijnHeader");
+    if (x.className === "Header") {
+        x.className += " responsive";
+    } else {
+        x.className = "Header";
+    }
+}
+</script>
+<div id="Zijkant" class="overlay">
+  <a href="javascript:void(0)" class="BtnSluit" onclick="SluitZijkant()">&times;</a>
+  <div class="overlay-content">
+    <a href="#Inleiding">Inleiding </a>
+    <a href="#Afweersysteem_medicatie">Afweersysteem </a>
+    <a href="#Verwikkelingen">Verwikkelingen </a>
+    <a href="#Opvolging_consultaties">Opvolging</a>
+    <a href="#Veel_gestelde_vragen">Vragen</a>
+    <a href="#Mijn_donor">Mijn donor</a>
+    <a href="#Tot_slot">Tot slot</a>
+  </div>
+</div>
+<span id="ButtonLinks" style="font-size:30px;cursor:pointer" onclick="OpenZijkant()">&#9776; Links</span>
+
+<script>
+function OpenZijkant() {
+    document.getElementById("Zijkant").style.width = "100%";
+}
+
+function SluitZijkant() {
+    document.getElementById("Zijkant").style.width = "0%";
+}
+</script>
+<div class="Midden">
+<h2 id="Inleiding">Inleiding</h2>
+            <p> U heeft onlangs een niertransplantatie ondergaan en dit brengt waarschijnlijk heel wat gevoelens bij u te weeg. Vermoedelijk heeft u naast gevoelens van blijdschap ook heel wat
+            vragen rond de transplantatie. Waar moet ik op toezien? Wanneer en hoeveel moet ik op consultatie komen? Hoe lang zal mijn nieuwe nier werken, ...?</p>
+            <p> Deze brochure is ontwikkeld om u wat meer informatie te geven over het verloop van uw ziekenhuisopname, de raadplegingen nadien en hoe verder te leven na een niertransplantatie. We
+            leggen uit wat het begrip afstoting inhoudt, welke verschillende soorten medicatie er bestaan om dit tegen te gaan, het belang van een correcte inname, ... Daarnaast geven we ook meer
+            uitleg over uw opvolging na de transplantatie </p>
+            <p> Deze brochure is bedoeld als ondersteuning. Alles wat hierin beschreven staat zal ook uitvoerig met u besproken worden door de leden van het transplantteam (arts, verpleegkundige,
+            transplantcoördinator, maatschappelijk werker, ...). Ook na het lezen van deze brochure kan u met uw vragen steeds bij hen terecht. Zij zullen met plezier uw vragen beantwoorden.
+                <br>
+                <br> Wij wensen u een spoedig herstel een een aangenaam verblijf in ons ziekenhuis.
+                <br>
+                <br> Het transplantteam </p>
+            <h2 id="Afweersysteem_medicatie"><b>1.</b> Ons afweersysteem en medicatie</h2>
+            <p> U bent juist getransplanteerd en dit brengt heel wat positieve veranderingen voor u. Indien u voordien in dialyse was, valt dit nu weg. U kan terug een actiever sociaal leven
+            uitbouwen, u kan terug gaan werken, uw dieet zal terug minder strikt zijn,... Een transplantatie wil echter ook wel zeggen dat u een reeks nieuwe geneesmiddelen zal moeten innemen om
+            ervoor te zorgen dat uw nieuwe nier niet afgestoten wordt. In het eerste deel van deze brochure willen we u daarom wat meer uitleg geven over het afweersysteem en welke geneesmiddelen u
+            mogelijks moet innemen. </p>
+            <p> Ons hele afweersysteem is er op gericht om indringers, bijvoorbeeld sommige bacteriën, te neutraliseren en ons lichaam op die manier gezond te houden. Op dezelfde manier probeert
+            het afweersysteem ook om getransplanteerde organen aan te vallen en af te stoten. Daarom moet u vanaf het moment van de operatie, en nadien levenslang, meerdere geneesmiddelen innemen
+            die het immuunsysteem elk op een specifieke manier onderdrukken of uitschakelen. Onderbreken van de behandeling, zelfs na verloop van jaren, kan ernstige afstotingsverschijnselen en het
+            verlies van het getransplanteerde orgaan tot gevolg hebben. Ook onnauwkeurige inname van de geneesmiddelen, niet in acht nemen van het vooropgestelde tijdsschema, of afwijkingen van de
+            dosis, kan onherroepelijke schade berokkenen. </p>
+            <p> Er zijn twee types van afstoting, namelijk acute en chronische afstoting. Acute afstoting is een vorm van afstoting die snel en krachtig optreedt. Ze komt voornamelijk voor tijdens
+            de eerste drie maanden na transplantatie. Ook later bestaat er kans op acute afstoting, maar deze is veel kleiner. Chronische afstoting daarentegen is een proces dat jaren in beslag
+            neemt en stilaan de transplantnier aantast. Om de kans op afstoting zo klein mogelijk te houden is het dus belangrijk dat u de werking van uw medicatie en het belang van het schema goed
+            begrijpt voor u het ziekenhuis verlaat. Aarzel ook nooit om uw nefroloog of coördinator te contacteren als u bijkomende vragen zou hebben. </p>
+            <p> Hieronder vindt u een overzicht van de meest voorkomende geneesmiddelen die het immuunsysteem onderdrukken. Zowel de werking als aandachtspunten en nevenwerkingen worden kort
+            besproken. We bespreken eerst de algemene aandachtspunten. </p>
+            <p> <b><i>Let op:</i></b> U neemt niet alle geneesmiddelen die hieronder beschreven staan, maar slechts een aantal afhankelijk van uw medische toestand. De eerste maanden na
+            transplantatie is de dosier hiervan relatief hoog gezien dan het risico op afstoting het grootst is. Later wordt de dosis van de medicaties afgebouwd en kan in sommige gevallen de
+            behandeling met cortisone zelfs gestopt worden. Contacteer bij bijwerkingen steeds uw arts, vaak zijn er aanpassingen mogelijk. </p>
+            <p> Immunosupressiva worden gebruikt om het afweersysteem te onderdrukken. Op deze manier wordt voorkomen dat het lichaam de transplantnier zal afstoten. Deze geneesmiddelen zijn echter
+            niet specifiek waardoor uw lichaam ook minder zal reageren tegen door bacteriën en virussen veroorzaakte infecties. U kan met andere woorden sneller ziek worden. Het is daarom
+            belangrijk dat u zichzelf hiertegen beschermt. Vermijd daarom contact met zieke mensen. Raadpleeg steeds uw arts wanneer u zich wil laten vaccineren. </p>
+            <p> Hij zal voor u nagaan welke vaccincs voor u aangeraden zijn. Naast een verminderde weerstand tegen infecties, is er eveneens een verhoogd risico op het ontwikkelen van sommige
+            soorten kanker. Ons immuunsysteem verhindert normaal de wildgroei van cellen, maar met het onderdrukken van het immuunsysteem wordt deze functie ook verminderd. Er bestaat dus een
+            verhoogd risico op het ontwikkelen van kanker en meer bepaald huidkanker. </p>
+            <p> Stel daarom in de zomer uw huid niet te veel bloot aan de zon. Bedek deze en/of smeer uw huid steeds goed in met zonnecrème van een voldoende hoge factor. Laat ook steeds jaarlijks
+            uw huid nakijken door een dermatoloog. 
+            </p>
+
+            <!---------------------------------------------------------------------------->
+			<img src="afbeeldingen/site_afbeelding1.png" id="mijnafbeelding" alt="Plaveiselcelcarcinoom" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            
+            <h3 class="Tacrolimus">&nbsp;&nbsp;&nbsp;&nbsp;<b>1.1.</b> Tacrolimus (Prograft<sup>®</sup>, Advagraf<sup>®</sup>)</h3>
+            
+            <p> <u>DOEL:</u> Prograft<sup>®</sup> en Advagraf <sup>®</sup> zijn geneesmiddelen die het afweersysteem onderdrukken zodat de getransplanteerde nier niet afgestoten wordt. </p>
+            <p> <u>INNAME:</u> De dosis Tacrolimus die u moet innemen, hangt af van uw gewicht en de hoeveelheid medicatie in uw bloed. Deze dosis kan, zeker in het begin, regelmatig aangepast
+            worden. Het is belangrijk dat u deze medicatie altijd op dezelfde manier en op hetzelfde tijdstip inneeemt.  
+            </p>
+            <!---------------------------------------------------------------------------->
+			<img src="afbeeldingen/site_afbeelding2.png" id="mijnafbeelding2" alt="Tacrolimus<sup>®</sup>" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding2');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            <p> <u>NEVENWERKINGEN:</u> Elk geneemsiddel kan nevenwerkingen met zich meebrengen. Pas echter nooit zelf uw medicatie aan indien u nevenwerkingen ervaart. Meld dit steeds aan uw
+            nefroloog en deze kan dan bekijken hoe deze nevenwerkingen het best aangepakt worden. </p>
+            <p> Volgende nevenwerkingen kunnen optreden bij het gebruik van Tacrolimus: diarree, misselijkheid, braken, beven van de handen, slapeloosheid, suikerziekte, verhoogde bloeddruk,
+            hoofpijn, gezichtsstoornissen. </p>
+            <p> <u>TERUGBETALING:</u> Zowel Prograft <sup>®</sup> als Advagraf <sup>®</sup> worden volledig terugbetaald door het ziekenfonds en zijn verkrijgbaar bij de apotheek met een medisch voorschrift. </p>
+            <h3 class="Cyclosporine">&nbsp;&nbsp;&nbsp;&nbsp;<b>1.2.</b> Cyclosporine A (Neoral<sup>®</sup>)</h3>
+            <p> <u>DOEL:</u> Neoral <sup>®</sup> is een geneesmiddel die het afweersyste
+            em onderdrukt zodat de getransplanteerde nier niet afgestoten wordt. </p>
+            <p> <u>INNAME:</u> De dosis Neoral<sup>®</sup> die u moet innemen, hangt af van uw gewicht en de hoeveelheid medicatie in uw bloed. Deze dosis kan, zeker in het begin, regelmatig aangepast worden.
+            Het is belangrijk dat u deze medicatie altijd op dezelfde manier en op hetzelfde tijdstip inneeemt. 
+            </p>
+            <!---------------------------------------------------------------------------->
+			<img src="afbeeldingen/site_afbeelding3.png" id="mijnafbeelding3" alt="Neoral<sup><sup>®</sup></sup>" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding3');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            <p> <u>NEVENWERKINGEN:</u> Elk geneemsiddel kan nevenwerkingen met zich meebrengen. Pas echter nooit zelf uw medicatie aan indien u nevenwerkingen ervaart. Meld dit steeds aan uw
+            nefroloog en deze kan dan bekijken hoe deze nevenwerkingen het best aangepakt worden. Volgende nevenwerkingen kunnen optreden bij het gebruik van Neoral<sup>®</sup>: verhoogd risico op
+            schimmelinfecties van mond en slokdarm, kwetsbare huid, verdikking van het tandvlees, toegenomen haargroei op lichaam en gezicht, hoofdpijn, verhoogde bloeddruk, verhoogde cholesterol
+            in het bloed,beven van de handen, brandend gevoel aan de handen en de voeten. </p>
+            <p> <u>TERUGBETALING:</u> Neoral <sup>®</sup> wordt volledig terugbetaald door het ziekenfonds en is verkrijgbaar bij de apotheek met een medisch voorschrift. </p>
+            <h3 class="Sirolimus">&nbsp;&nbsp;&nbsp;&nbsp;<b>1.3.</b> Sirolimus (Rapamune <sup>®</sup>)</h3>
+            
+            <p> <u>DOEL:</u> Rapamune <sup>®</sup> is een geneesmiddel die het afweersysteem onderdrukt zodat de getransplanteerde nier niet afgestoten wordt. </p>
+            <p> <u>INNAME:</u> De dosis Rapamune<sup>®</sup> die u moet innemen hangt af van de hoeveelheid medicatie in uw bloed. Deze dosis kan, zeker in het begin, regelmatig aangepast worden.
+            Het is belangrijk dat u deze medicatie altijd op dezelfde manier en op hetzelfde tijdstip inneeemt.
+             </p>
+             <!---------------------------------------------------------------------------->
+			<img src="afbeeldingen/site_afbeelding4.png" id="mijnafbeelding4" alt="Rapamune<sup><sup>®</sup></sup>" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding4');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+             
+            <p> <u>NEVENWERKINGEN:</u> Elk geneemsiddel kan nevenwerkingen met zich meebrengen. Pas echter nooit zelf uw medicatie aan indien u nevenwerkingen ervaart. Meld dit steeds aan uw
+            nefroloog en deze kan dan bekijken hoe deze nevenwerkingen het best aangepakt worden. </p>
+            <p> Volgende nevenwerkingen kunnen het optreden bij het gebruik van Rapamune<sup>®</sup>: acne, roodheid, beven van de handen, slapeloosheid, vertraagde wondheling, zwelling van de
+            handen en
+            voeten, verhoogd risico op infectie, hoest en kortademigheid, gastro-intestinale klachten, suikerziekte </p>
+            <p> <u>TERUGBETALING:</u> Rapamune <sup>®</sup> wordt volledig terugbetaald door het ziekenfonds en is verkrijgbaar bij de apotheek met een medisch voorschrift. </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>1.4.</b> Everolimus (Certican<sup>®</sup>)</h3>
+            
+            <p> <u>DOEL:</u> Certican<sup>®</sup> is een geneesmiddel die het afweersysteem onderdrukt zodat de getransplanteerde nier niet afgestoten wordt. </p>
+            <p> <u>INNAME:</u> De dosis Certican<sup>®</sup> die u moet innemen hangt af vande hoeveelheid medicatie in uw bloed. Deze dosis kan, zeker in het begin, regelmatig aangepast worden.
+            Het is belangrijk dat u deze medicatie altijd op dezelfde manier en op hetzelfde tijdstip inneeemt. 
+            </p>
+            <!---------------------------------------------------------------------------->
+			<img src="afbeeldingen/site_afbeelding5.png" id="mijnafbeelding5" alt="Certican<sup><sup>®</sup></sup>" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding5');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            <p> <u>NEVENWERKINGEN:</u> Elk geneemsiddel kan nevenwerkingen met zich meebrengen. Pas echter nooit zelf uw medicatie aan indien u nevenwerkingen ervaart. Meld dit steeds aan uw
+            nefroloog en deze kan dan bekijken hoe deze nevenwerkingen het best aangepakt worden.
+                <br>
+                <br> Volgende nevenwerkingen kunnen het optreden bij het gebruik van Certican<sup>®</sup>: acne, aften, roodheid, zwelling van de handen en voeten, hoest en kortademigheid, vertraagde
+                wondheling. </p>
+            <p> <u>TERUGBETALING:</u> Certican <sup>®</sup> wordt volledig terugbetaald door het ziekenfonds en is verkrijgbaar bij de apotheek met een medisch voorschrift </p>
+            <p> <b><i>Let op!!</i></b> Verwittig steeds uw arts als u een operatie moet ondergaan. Dit geneesmiddel bemoeilijkt sterk de genezing de wonde. Er zal bij een operatie dus moeten
+            overgeschakeld worden naar een ander geneesmiddel. </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>1.5.</b> Azathioprine (Imuran<sup>®</sup>)</h3>
+            <p> <u>DOEL:</u> Imuran <sup>®</sup> is een geneesmiddel die het afweersysteem onderdrukt zodat de getransplanteerde nier niet afgestoten wordt. De in te nemen dosis wordt bepaald afhankelijk van
+            uw gewicht.
+
+                </p>
+                <!---------------------------------------------------------------------------->
+			<img src="afbeeldingen/site_afbeelding6.png" id="mijnafbeelding6" alt="Azathioprine<sup><sup>®</sup></sup>" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding6');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            <p> <u>NEVENWERKINGEN:</u> Elk geneemsiddel kan nevenwerkingen met zich meebrengen. Pas echter nooit zelf uw medicatie aan indien u nevenwerkingen ervaart. Meld dit steeds aan uw
+            nefroloog en deze kan dan bekijken hoe deze nevenwerkingen het best aangepakt worden. </p>
+            <p> Volgende nevenwerkingen kunnen het optreden bij het gebruik van Imuran<sup>®</sup>: gevoelige huid, gestoorde functie van de lever, daling van de witte bloedcellen, bloedarmoede, maag-en
+            darmklachten, bloedarmoede, leverstoornissen.
+                <br>
+                <br> <b><i>Let op!!</i></b> Er bestaat een belangrijke interactie tussen azathioprine (Imuran<sup>®</sup>) en allopurinol (Zyloric <sup>®</sup>), een medicament dat bij patiënten met hoog urinezuur en
+                jicht wordt gebruikt. Allopurinol vertraagt de uitscheiding van azathioprine en kan op deze manier een soms levensbedreigende toxiciteit veroorzaken. U mag nooit azathioprine en
+                allopurinol tezamen innemen. </p>
+            <p> <u>TERUGBETALING:</u> Imuran <sup>®</sup> wordt volledig terugbetaald door het ziekenfonds en is verkrijgbaar bij de apotheek met een medisch voorschrift. </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>1.6.</b>  Mycophenolaat Mofetil (MMF, CellCept<sup>®</sup>, Myfortic<sup>®</sup>,)</h3>
+            <p> <u>DOEL:</u> Cellcept <sup>®</sup> / Myfortic<sup>®</sup> is een geneesmiddel die het afweersysteem onderdrukt zodat de getransplanteerde nier niet afgestoten wordt. </p>
+            <p> <u>INNAME:</u> Het is belangrijk dat u deze medicatie altijd op dezelfde manier en op hetzelfde tijdstip inneeemt.  
+            </p>
+             <!---------------------------------------------------------------------------->
+			<img src="afbeeldingen/site_afbeelding7.png" id="mijnafbeelding7" alt="Mycophenolaat Mofetil(MMF, CellCept<sup>®</sup>, Myfortic<sup>®</sup>)" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding7');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            <p> <u>NEVENWERKINGEN:</u> Elk geneemsiddel kan nevenwerkingen met zich meebrengen. Pas echter nooit zelf uw medicatie aan indien u nevenwerkingen ervaart. Meld dit steeds aan uw
+            nefroloog en deze kan dan bekijken hoe deze nevenwerkingen het best aangepakt worden.
+                <br>
+                <br> Volgende nevenwerkingen kunnen het optreden bij het gebruik van CellCept<sup>®</sup>/ Myfortic <sup>®</sup>: misselijkheid, braken, gebrek aan eetlust, diarree, buikkrampen. </p>
+            <p> <u>TERUGBETALING:</u> CellCept<sup>®</sup> / Myfortic<sup>®</sup> wordt volledig terugbetaald door het ziekenfonds en is verkrijgbaar bij de apotheek met een medisch voorschrift. </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>1.7.</b>  Corticosteroïden (Medrol<sup>®</sup>)</h3>
+            <p> <u>DOEL:</u> Medrol is een ontstekingswerend en antiallergisch geneesmiddel. Het heeft daarbij ook een immunosuppressieve werking en zorg er mee voor dat uw getransplanteerde nier
+            niet afgestoten wordt. </p>
+            <p> <u>INNAME:</u> Vlak na transplantatie krijgt u hoge dosissen van dit geneesmiddel. Deze zal echter geleidelijk aan afgebouwd worden. Het is belangrijk dat u deze medicatie altijd op
+            dezelfde manier en op hetzelfde tijdstip inneeemt. 
+            </p>
+            <!---------------------------------------------------------------------------->
+            <img src="afbeeldingen/site_afbeelding8.png" id="mijnafbeelding8" alt="Corticosteroïden (Medrol<sup>®</sup>)" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding8');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            <p> <u>NEVENWERKINGEN:</u> Elk geneesmiddel kan nevenwerkingen met zich meebrengen. Pas echter nooit zelf uw medicatie aan indien u nevenwerkingen ervaart. Meld dit steeds aan uw
+            nefroloog en deze kan dan bekijken hoe deze nevenwerkingen het best aangepakt worden.
+                <br>
+                <br> Volgende nevenwerkingen kunnen het optreden bij het gebruik van Medrol<sup>®</sup>: maaglast en een verhoogde kans op maagzweren, kans op het ontwikkelen van suikerziekte, vocht-en
+                zoutretentie, opgeblazen gezicht, gewichtstoename en verhoogde eetlust, wisselende gemoedsgesteldheid, vertraagde wondheling, broze huid en verlies van botdensiteit. </p>
+            <p> <u>TERUGBETALING:</u> Medrol <sup>®</sup> wordt op hoge dosis volledig terugbetaald en op lage dosiers ten grote dele terugbetaald door het ziekenfonds en is verkrijgbaar bij de apotheek met
+            een medisch voorschrift.  
+            </p>
+             <!---------------------------------------------------------------------------->
+            <img src="afbeeldingen/site_afbeelding9.png" id="mijnafbeelding9" alt="Corticosteroïden (Medrol<sup>®</sup>)" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding9');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            <h2 id="Verwikkelingen"><b>2.</b> Verwikkelingen na transplantatie</h2>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>2.1.</b>  De nierwerking komt vertraagd op gang</h3>
+            <p> Organen die na wegname een tijdlang in een koude vloeistof bewaard werden en nieren afkomstig van hartdode patiënten kunnen na de transplantatie soms tijd nodig hebben om terug op
+            gang te komen. Dit gebeurt in 10 tot 30 percent van alle niertransplantaties. Bij uitgestelde transplantfunctie in de eerste dagen na de transplantatie kunnen uw behandelende artsen
+            soms beslissen dat nog één of meerdere aanvullende dialyse behandelingen nodig zijn. </p>
+            <p> In geval van uitgestelde transplantfunctie voor meer dan een week kunnen uw artsen ook moeilijk inschatten of een afstoting de werking van de nier voorkomt. Om deze reden zal in
+            geval van uitstelling van de transplantfunctie voor meer dan een week een nierbiopsie worden gepland. Eenmaal de nieuwe nier op gang komt, zal de langetermijnuitkomst echter
+            vergelijkbaar zijn met organen die direct functioneren. </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>2.2.</b>  Afstoting</h3>
+            <p> Weerstandonderdrukkende medicatie zorgt de laatste jaren voor minder (uitgesproken) afstotingsverschijnselen maar zelfs als u de strikt opgelegde richtlijnen volgt, blijft de kans
+            dat u een episode van een acute rejectie doormaakt toch 15 %. Dit betekent niet dat uw nier verloren is. Met aangepaste medicatie kan rejectie in de grote meerderheid van de
+            gevallenefficiënt behandeld worden en zal de nier herstellen. We spreken dan van een acute rejectie. In het geval een rejectie onvoldoende kan onderdrukt worden zal de werking van de
+            getransplanteerde nier langzaam verder achteruitgaan en zal er op een bepaald moment opnieuw dialysenood optreden. In dit geval spreken we van een chronische rejectie en dit is een
+            onomkeerbaar proces. </p>
+            <p> De uiteindelijke diagnose wordt gesteld na uitvoering van een nierbiopsie. Standaard wordt dit steeds 3 maanden na de transplantatie gedaan. Nadien kan dit herhaald worden wanneer
+            er tekens zijn van afstoting. Ook indien er vroeger dan drie maand tekens van afstoting zijn, kan er al een biopsie uitgevoerd worden. Volgende tekens kunnen mogelijks wijzen op een
+            afstoting:
+                <ul>
+                    <li>Koorts en rillingen (gebeurt zelden)</li>
+                    <li>Grieperig gevoel of zich algemeen niet goed voelen</li>
+                    <li>Pijnlijk en/of gezwollen gevoel in de nierstreek</li>
+                    <li>Gezwollen benen en voeten</li>
+                    <li>Ongewone gewichtstoename</li>
+                    <li>Minder plassen bij normale vochtinname</li>
+                    <li>Een stijging van het creatinine in het bloed</li>
+                </ul> 
+                </p>
+                <!---------------------------------------------------------------------------->
+            <img src="afbeeldingen/site_afbeelding10.png" id="mijnafbeelding10" alt="Verwikkelingen na transplantatie" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding10');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>2.3.</b>  Infecties</h3>
+            <p> Door de inname van weerstandonderdrukkende medicatie bestaat er een verhoogd risico op besmettingen, in het bijzonder op virale infecties. Specifieke analyses kunnen deze infecties
+            tijdig opsporen maar een behandeling via intraveneuze weg en een opname in het ziekenhuis zijn in vele gevallen noodzakelijk. Ook bacteriële infecties moeten ernstig aangepakt worden,
+            met bijzondere aandacht voor infecties van het urinestelsel en van de longen.
+                <br> Om te voorkomen dat u na de transplantatie een infectie oploopt, wordt er na de transplantatie medicatie hiervoor voorgeschreven. Veel gebruikte medicatie hiervoor is Eusaprim<sup>®</sup>
+                en Valcyte<sup>®</sup>. </p>
+            <p> <b><i>Let op:</i></b> Voor de terugbetaling van Valcyte heeft u steeds een voorschrift van uw nefroloog nodig. Vraag hier zeker naar bij ontslag uit het ziekenhuis Een goede hygiëne
+            is belangrijk om infecties te vermijden. Hieronder vindt u enkele tips die u hierbij kunnen helpen. 
+            </p>
+            <!---------------------------------------------------------------------------->
+            <img src="afbeeldingen/site_afbeelding11.png" id="mijnafbeelding11" alt="Verwikkelingen na transplantatie" width="60%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding11');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    <!---------------------------------------------------------------------------->
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>2.4.</b>  Heelkundige verwikkelingen</h3>
+            <p> Soms kunnen er problemen optreden die te maken hebben met de ingreep zelf. Hieronder vindt u een aantal van deze problemen.
+                <br>
+                <br> <b>Nabloeding:</b> hiervoor is er een nieuwe ingreep nodig. Dit komt gelukkig niet vaak voor. </p>
+            <p> <b>Bloedklonter in de slagader van de nier.</b> Deze complicatie komt erg weinig voor (in één procent van de gevallen). Door een bloedklonter kan er geen bloed naar de nier stromen
+            en krijgt deze geen voedingsstoffen en zuurstof. Een dringende operatie om de bloedklonter te verwijderen is de enige mogelijk oplossing om deze complicatie op te lossen. Vaak is de
+            schade al te ernstig en zal de nieuwe nier moeten verwijderd worden.
+                <br>
+                <br> Deze verwikkelingen komen voornamelijk de eerste dagen na de transplantatie voor. Een aantal andere verwikkelingen kunnen maanden tot jaren na de transplantatie ontstaan. </p>
+            <p> <b>Lymfocoele:</b> dit is een ophoping van lymfevocht rond de nieuwe nier. Als dit teveel druk uitoefend op de nier, kan het vocht weggenomen worden via een punctie ( drainage) of
+            met een operatie. </p>
+            <p> <b>Vernauwing ter hoogte van de urineleider en de blaas.</b> Dit is een complicatie die erg zelden voorkomt, gezien er standaard een stent wordt geplaatst bij de transplantatie.
+            Meer informatie over deze stent volgt verder in deze brochure. </p>
+            <p> <b>Vernauwing ter hoogte van de bloedvaten.</b> Ook dit is een complicatie die zelden voorkomt. Dit wordt behandeld door de slagader open te blazen met een ballonnetje en een
+            metalen veer, die de slagader openhoudt, achter te laten. </p>
+            <p> <b>Littekenbreuk of hernia.</b> Ten gevolge van een slechte wondgenezing ter hoogte van de spieren van de buikwand ontstaat er ter hoogte van het litteken een verzwakking en
+            zwelling in de buikwand. Deze verwikkeling kan met een operatie verholpen worden door het plaatsen van een netje in kunststof. </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>2.5.</b>  Diabetes mellitus</h3>
+            <p> Het is mogelijk dat u na uw transplantatie diabetes of suikerziekte ontwikkelt. Dit komt door de medicatie die u moet innemen tegen afstoting. Daarom zal de eerste zes maanden
+            regelmatig het suikergehalte in uw bloed gemeten worden. Dit wordt gedaan aan de hand van een vingerprik. Tijdens uw opname zal dit gedaan worden door de verpleegkundigen, maar wanneer
+            u terug thuis bent, dient u dit zelf te doen. Een verpleegkundige van het diabetesteam zal u komen uitleggen hoe u dit moet doen. Hij/zij zal u ook uitleg geven over het diabetesdieet
+            dat u dient te volgen. </p>
+            <p> U dient uw suiker geduren zes maanden elke dag éénmaal te meten. Dit zal afwisselend voor het ontbijt, middagmaal en avond eten zijn. Vb: maandag voor het ontbijt, dinsdag voor het
+            middagmaal, woensdag voor het avondeten, donderdag terug voor het ontbijt,....
+                <br>
+                <br> Gedurende deze zes maanden heeft u recht op terugbetaling van een apparaatje dat de suiker meet en de meetstrips die hierbij horen. </p>
+            <p> Indien u effectief diabetes zou ontwikkelen na de transplantatie zal ook hiervoor extra medicatie moeten innemen. Het kan zijn dat u pillen moet innemen die de suiker doen verlagen
+            of dat u inspuitingen moet krijgen met insuline, een product dat de suiker in het bloed verlaagt. Ook zal u dan regelmatig bij een specialist moeten komen die uw diabetes opvolgt. We
+            proberen steeds deze afspraken te combineren met een afspraak bij de nefroloog zodat de bezoeken aan het ziekenhuis beperkt blijven. </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>2.6.</b>  Osteoporose</h3>
+            <p> Osteoporose of botontkalking is een complicatie die regelmatig voorkomt. Deze aandoening komt vaak al voor de transplantie voor. Nierproblemen zorgen er namelijk voor dat er calcium
+            uit het bot wordt gehald waardoor deze zwakker worden en makkelijker kunnen breken. Het is tot nu nog niet heel duidelijk of een transplantatie hier beterschap in brengt. Daarom krijgt
+            u calciumsupplementen (CaCit Vit DR3, calciumcarbonaat) en/ of vitamine D ( D-cure, α-leo) voorgeschreven . Daarnaast kan het ook zijn dat er soms een onderzoek zal uitgevoerd worden om
+            naar de samenstelling van uw bot te kijken (= botdensitometrie). </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>2.7.</b>  Maagzweer/maagproblemen</h3>
+            <p> Veel geneesmiddelen die u inneemt zijn belastend voor de maag. Om te voorkomen dat u een maagzweer of andere problemen ontwikkelt zal er een maagbeschermer voorgeschreven worden
+            (vb: Zantac <sup>®</sup>, Pantomed<sup>®</sup>). Indien u toch maagproblemen zou ontwikkelen, is het mogelijk dat de arts beslist om een maagonderzoek te laten uitvoeren. Bij dit maagonderzoek wordt er via
+            de mond een flexibele buis in uw maag gebracht om de maag te inspecteren en te kijen wat het probleem is. </p>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>2.8.</b>  Huidkanker</h3>
+            <p> Mensen die een orgaantransplantatie hebben ondergaan, hebben een hoger risico om huidkanker te ontwikkelen vergeleken met de algemene bevolking. Dit verhoogde risico is te wijten
+            aan de medicijnen die gegeven worden om afstoting van de transplantnier tegen te gaan. Deze medicijnen, ook wel immunosuppressiva genoemd, onderdrukken het eigen afweersysteem, waardoor
+            kwaadaardige tumoren makkelijker kunnen ontstaan en sneller kunnen groeien. Een van de frequentste plaatsen waar deze tumoren kunnen ontstaan is de huid. Daarom is het zeer belangrijk
+            om de huid goed te beschermen tegen de zon. </p>
+            <p> De 3 belangrijkste tips voor een goede zonbescherming zijn:
+                <ul>
+                    <li>Vermijd onnodige zonexpositie: vermijd de middagzon (tussen 11u en 15u) en zoek zoveel mogelijk de schaduw op. </li>
+                    <li>Draag beschermende kledij: lange mouwen en broekspijpen, hoed of petje, UV-beschermende zonnebril.</li>
+                    <li>Gebruik zonnecrème met een voldoende hoge beschermingsfactor, liefst SPF50+ en herhaal de applicatie om de 2-3 uur. Let op, ook in de schaduw kan men verbranden dus vergeet
+                    je niet in te smeren!</li>
+                </ul> Hieronder volgt een overzicht van de soorten huidkanker die het vaakst voorkomen bij mensen die een orgaantransplantatie hebben ondergaan.
+                <ul>
+                    <li>Plaveiselcelcarcinoom: dit is de kwaadaardige huidtumor die het frequentst gezien wordt bij mensen met een transplantorgaan. Mensen met een lichte huidskleur hebben een
+                    hoger risico om dit type huidtumor te ontwikkelen, maar dit kan soms ook voorkomen bij mensen met een donkerdere huidskleur. De tumor ziet eruit als een rode ruwe vlek, een
+                    korstachtig gezwel of een niet genezende wonde.</li>
+                </ul>
+            </p>
+            <!---------------------------------------------------------------------------->
+            <img src="afbeeldingen/site_afbeelding12_groot.jpg" id="mijnafbeelding12" alt="Plaveiselcelcarcinoom" width="30%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding12');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    		<!---------------------------------------------------------------------------->
+            <!---------------------------------------------------------------------------->
+            <img src="afbeeldingen/site_afbeelding13_groot.jpg" id="mijnafbeelding13" alt="Plaveiselcelcarcinoom" width="30%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding13');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    		<!---------------------------------------------------------------------------->
+            <!---------------------------------------------------------------------------->
+            <img src="afbeeldingen/site_afbeelding14_groot.jpg" id="mijnafbeelding14" alt="Plaveiselcelcarcinoom" width="30%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding14');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    		<!---------------------------------------------------------------------------->
+            
+        <p>
+            <ul>
+                <li>Basaalcelcarcinoom: dit is de tweede meest geziene kwaadaardige huidtumor bij mensen met een transplantorgaan en een lichte huidskleur. Deze soort tumor wordt bijna nooit gezien
+                bij mensen met een donkerdere huidskleur. De tumor ziet eruit als een rode ruwe vlek, een glanzende huidskleurige bobbel of een niet genezende wonde.</li>
+            </ul>
+            <!---------------------------------------------------------------------------->
+            <img src="afbeeldingen/site_afbeelding15.jpg" id="mijnafbeelding15" alt="Basaalcelcarcinoom" width="30%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding15');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    		<!---------------------------------------------------------------------------->
+            <!---------------------------------------------------------------------------->
+            <img src="afbeeldingen/site_afbeelding16.jpg" id="mijnafbeelding16" alt="Basaalcelcarcinoom" width="30%" height="30%">
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('mijnafbeelding16');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function () {
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function () {
+                    modal.style.display = "none";
+                    }
+                </script>
+    		<!---------------------------------------------------------------------------->
+            <ul>
+                <li>Kaposi sarcoom: dit is de kwaadaardige huidtumor die het frequentst gezien wordt bij mensen van Afrikaanse origine. Meestal zijn er meerdere tumoren aanwezig die eruit zien als
+                donkerpaarse vlekken of gezwellen.</li>
+            </ul>
+        Om het ontstaan van kwaadaardige huidtumoren tijdig op te sporen en te kunnen behandelen, is een jaarlijkse huidcontrole bij een dermatoloog aangewezen. Indien je zelf een nieuw letsel
+        opmerkt, aarzel zeker niet om sneller langs te gaan bij de dermatoloog.
+        </p>
+    
+    <h2 id="Opvolging_consultaties"><b>3.</b> Opvolging en consultaties</h2>
+    
+    <p>
+        Een goede opvolging is belangrijk voor de overleving van uw transplantnier. U zal daarom, zeker in het begin, regelmatig op controle moeten komen in het ziekenhuis. In ons centrum maken we
+        een verschil tussen patiënten die minder dan een jaar getransplanteerd zijn (= acute patiënten) en patiënten die langer dan een jaar getransplanteerd zijn (= chronische patiënten).
+        Hieronder vindt u meer uitleg over hoe de opvolging gebeurt bij deze twee groepen.
+    </p>
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>3.1.</b>  Acute patiënten</h3>
+    <p>
+        Na ontslag uit het ziekenhuis komt u op consultatie bij de nefroloog en indien nodig bij de transplantchirurg. Zoals reeds eerder gezegd is dit in het begin zeer frequent. De medicatie
+        dient nog regelmatig aangepast te worden, er wordt nagekeken of de operatiewonde goed geneest, ... Bijkomend is het risico om na de niertransplantatie complicaties te ontwikkelen het hoogst
+        binnen de eerste drie maanden. Deze kunnen tijdens de consultaties snel worden opgespoord en op tijd worden behandeld.
+        <br>
+        Hieronder vindt u een schema voor de frequentie van de consultaties tijdens het eerste jaar.
+    </p>
+    <p>
+        <b><i>Let op:</i></b> Dit is een standaard schema. Er kan omwille van verschillende redenen van dit schema afgeweken worden.
+        <img src="afbeeldingen/site_afbeelding15.png">
+    </p>
+    <p>
+        Na de operatie wordt de wonde uiteraard gesloten. Dit kan door middel van draadjes of nietjes gedaan worden. Indien de wonde goed geneest worden deze draadjes of nietjes 10 tot 14 dagen na
+        de operatie op de consultatie verwijderd. Het kan ook zijn dat uw wonde onderhuids gehecht wordt. In dat geval dienen uw hechtingen niet verwijderd te worden, maar lossen deze vanzelf op.
+    </p>
+    <p>
+        Tijdens de transplantatie wordt er een JJ-stent geplaatst. Dit is een hol buisje dat in de urineleider van de nieuwe nier wordt geplaatst. Het ene uiteinde hiervan gaat tot in de
+        transplantnier en het andere einde komt tot in de blaas. Dit wordt geplaatst om te voorkomen dat de urineleider verstopt. Na een transplantatie heeft de urineleider die ingeplant is op de
+        blaas namelijk tijd nodig om te herstellen. Deze stent wordt normaal gezien zes weken na transplantatie verwijderd. Dit gebeurt onder plaatstelijke verdoving op de consultatie van urologie.
+        Tot het verwijdern van deze stent zal u antbiotica voorgeschreven krijgen om te vermijden dat u een urineweginfectie oploopt.
+    </p>
+    <p>
+        Drie maanden na transplantatie wordt er standaard een biopsie van uw tranpslantnier genomen. Er wordt daarbij onder lokale verdoving een stukje weefsel weggenomen. Dit wordt gedaan om
+        vroegtijdige tekens van afstoting op te sporen. Nadien gebeurt dit niet meer routinematig, maar enkel bij vermoeden van afstoting. Ook als er minder dan 3 maanden na tranpslantie tekens van
+        afstoting zijn, zal er een biopsie genomen worden. Voor deze biopsie wordt u opgenomen op de afdeling Nefrologie (A360) en dient u 1 nacht in het ziekenhuis te blijven ter observatie.
+    </p>
+    <p>
+        Wanneer u naar de consultatie komt, wordt u eerst gezien door een verpleegkundige. Deze zal bij u bloeddruk, pols en gewicht nemen. Daarnaast neemt hij/zij ook bloed bij u. Hiermee willen
+        we uw nierfunctie en de hoeveelheid medicatie in uw bloed meten. Het is daarom belangrijk dat u voor de consultatie nog GEEN medicatie inneemt. U kan deze innemen na de bloedname. Nadat de
+        verpleegkundige u gezien heeft, wordt u gezien door de nefroloog. Deze zal u klinisch onderzoeken en met u bespreken of er al dan niet aanpassingen moeten gebeuren aan uw behandeling. Dit
+        is een goed moment om uw bezorgdheden, vragen, .... te bespreken. Indien u uw dosis van uw geneesmiddelen moet aanpassen, zal u telefonisch gecontacteerd worden zodra de uitslag van de
+        bloedname gekend is.
+    </p>
+    <p>
+        1 jaar na transplantatie wordt er een jaarbilan gepland. Dit zijn twee dagen waarop er heel wat onderzoeken gepland worden om na te gaan of alles in orde is met u. Deze onderzoeken kunnen
+        ambulant gebeuren, waarbij u dan 2 dagen naar het dagziekenhuis (A300) gaat of u kan hiervoor ook opgenomen worden op de afdeling nefrologie (A360). Na alle onderzoeken vindt er een
+        afrondende consultatie bij de nefroloog plaats waarop de resultaten van de onderzoeken worden besproken. Dit jaarbilan wordt, zoals de naam doet vermoeden, jaarlijks opnieuw gepland rond de
+        datum van uw transplantatie.
+    </p>
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>3.2.</b>  Chronische patiënten</h3>
+    
+    <p>
+        Vanaf 1 jaar na transplantatie wordt u beschouwd als een chronische patiënt. U hoeft vanaf dan slechts 1 keer om de 2 maanden naar de consultatie te komen. De organisatie van deze
+        consultatie verloopt iets anders dan deze van de acute patiënten. Gezien u slechts 1 keer om de 2 maanden komt, wil de nefroloog graag zoveel mogelijk informatie zodat deze, indien nodig,
+        uw therapie tijdens de consultatie kan aanpassen. Er wordt daarom geen bloed genomen tijdens de consultatie, maar al enkele dagen hiervoor zodat de resultaten al bekend zijn op de dag van
+        de consultatie. Op deze manier kan de arts gerichter uw behandeling opvolgen, bijsturen en de resultaten ineens met u bepsreken.
+    </p>
+    <p>
+        U krijgt dus als chronische patiënt twee afspraken. Een afspraak voor een bloedname, die uitgevoerd wordt op de dienst bloedafname van ons ziekenhuis en een afspraak voor de consultatie.
+        Voor de afspraak van de bloedname geldt ook dat u uw medicatie nog niet mag ingenomen hebben voor de bloedname. U neemt deze pas in nadat de bloedname gebeurd is. Op de dag van de
+        consultatie neemt u uw medicatie zoals gewoonlijk gezien er dan geen bloed zal genomen worden. U kan er ook voor kiezen om de bloedname door uw huisarts of een labo te laten nemen dichter
+        bij u in de buurt. Verwittig de consultatieverpleegkundige hiervan en zij zal u de nodige papieren meegeven om de bloedname elders uit te laten voeren.
+    </p>
+    <p>
+        Net zoals bij de acute patiënten zal de consultatieverpleegkundige bloeddruk, pols en gewicht bij u nemen. Daarna wordt u ook gezien door de nefroloog die klinisch zal onderzoeken en
+        aanpassingen zal doen aan uw behandeling indien nodig.
+    </p>
+    
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;<b>3.3.</b>  Consultatiedata</h3>
+    
+    <p>
+        Hieronder vindt u een ovezicht van dagen waarop er consulaties plaats vinden.
+        <br><br>
+        Acute patiënten:
+        <ul>
+            <li>Maandag voormiddag van 08.30 tot 12.30</li>
+            <li>Vrijdag voormiddag van 08.30 tot 12.30</li>
+        </ul>
+        Chronische patiënten:
+        <ul>
+            <li>Maandag voormiddag van 08.30 tot 12.30</li>
+            <li>Dinsdag voormiddag van 08.30 tot 12.30</li>
+            <li>Vrijdag voormiddag van 08.30 tot 12.30</li>
+        </ul>
+    Plaats: Route 781
+    <br>
+    Contactgegevens: telefonisch via 02/ 477 60 99 of stuur een <a href="ResponsivePagina3.html">mail</a>.
+    </p>
+
+    <h2 id="Veel_gestelde_vragen"><b>4.</b> Veel gestelde vragen</h2>
+
+    <p>
+        <ul>
+        	<li>Hoe lang moet ik in het ziekenhuis blijven?</li>
+        </ul>
+        Dit varieert van persoon tot persoon en hangt af van verschillende factoren. Ten eerste moet uw nier voldoende functioneren. Daarnaast moet u ook fysiek voldoende hersteld zijn van de
+        operatie zodat u thuis, eventueel met hulp, voor uzelf kan zorgen. Tot slot moet u ook voldoende ingelicht zijn over uw medicatie en in staat zijn deze zelf klaar te zetten en in te nemen.
+        Gemiddeld duurt een opname zonder complicaties 10 dagen.
+    </p>
+    <p>
+     	<ul>
+        	<li>Hoeveel zal ik zelf moeten betalen voor een niertransplantatie?</li>
+        </ul>
+        Dit hangt ook wat af van mutualiteit tot mutualiteit. Sommige ziekteverzekering betalen meer zaken terug dan andere. Globaal gezien betaalt iemand met een hospitalisatieverzekering zonder
+        verhoogde tegemoetkoming rond de 500 euro. Personen met een hospitalistatieverzekering met verhoogde tegemoetkoming betalen rond de 250 euro. Personen zonder ziekteverzekering betalen rond
+        de 37.000 euro.
+        <br><br>
+        <b><i>Let op!</i></b> Dit zijn standaard bedragen en bevatten niet bloed- en andere onderzoeken die eventueel extra aangevraagd worden.
+        <br><br>
+        <b><i>Let op!</i></b>	 Zorg steeds dat uw ziekte - en hospitalisatieverzekering niet verlopen is. Informeer u hiervoor bij u mutualiteit.
+    </p>
+    <p>
+    	<ul>
+        	<li>Wanneer mag ik terug rijden na een transplantatie?</li>
+        </ul>
+        De eerste maand na uw transplantatie geldt een rijverbod. Er wordt geteld vanaf uw opnamedatum. Nadien kan u een rijgeschikheidsattest vragen aan uw behandelende arts. Deze heeft altijd de
+        eindbeslissing en kan eventueel een langer rijverbod opleggen. Met uw geschiktheidsattest dient u naar het gemeentehuis te gaan om een nieuw rijbewijs aan te vragen. U kan best ook altijd
+        een kopie naar uw verzekeringsmaatschappij sturen en laten weten dat u een zware medische ingreeft heeft ondergaan. U zal hierdoor niet meer verzekeringen te hoeven betalen dan voordien.
+    </p>
+    <p>
+    	<ul>
+        	<li>Ik moet heel regelmatig naar het ziekenhuis komen. Krijg ik een vergoeding voor mijn verplaatsingen?</li>
+        </ul>
+        Het eerste jaar na transplantatie wordt u beschouwd als een acute patiënt en heeft u recht op een parkeerkaart van het UZ Brussel waarmee u gratis kan parkeren. Na een jaar vervalt deze
+        kaart, omdat u dan veel minder frequent naar het ziekenhuis moet komen. U dient dat zelf uw vervoersonkosten te betalen. Informeer u echter ook bij uw ziekenfonds. Sommige hiervan betalen
+        uw vervoersonkosten terug. Indien dit het geval is, kan u bij de arts of consultatieverpleegkundige een attest met vermelding van de consultatiedata verkrijgen.
+    </p>
+    <p>
+    	<ul>
+        	<li>Wanneer mag ik terug werken na een transplantatie?</li>
+        </ul>
+        Na drie maanden kan u terug beginnen werken wanneer zowel de nefroloog, de adviserend geneesheer van uw mutualiteit en uw werkgever akkoord gaan. In het begin zal voltijds werken vaak
+        moeilijk zijn en kan er gestartd worden met deeltijds te gaan werken. Na een jaar zou u moeten in staat zijn om terug voltijds te gaan werken. Het kan echter zijn dat u door omstandigheden
+        ( vb:fysiek te zwaar) u voormalige job niet meer uitvoeren. Herscholing kan dan een oplossing zijn.
+    </p>
+    <p>
+    	<ul>
+        	<li>Mag ik seks hebben en zo ja vanaf wanneer?</li>
+        </ul>
+        Er is geen enkel bezwaar tegen seksuele activiteit wanneer u en uw partner er zelf aan toe zijn.
+    </p>
+    <p>
+    	<ul>
+        	<li>Mag/kan ik zwanger worden na een transplantatie?</li>
+        </ul>
+        Na een transplantatie keert de vruchtbaarheid bij de vrouw vaak terug. U zal als vrouw terug ongesteld worden en kan terug zwanger worden. De eerste twee jaar na een transplantatie wordt
+        echter een zwangerschap afgeraden omdat er tot dan nog vaak hoge dosissen medicatie moeten ingenomen worden die schadelijk kunnen zijn voor de foetus. U dient daarom steeds
+        voorbehoedsmiddelen te gebruiken. U kan in de meeste gevallen dezelfde anticonceptiepil gebruiken als voor de transplantatie. Bespreek dit zeker met uw behandelende arts vooraleer u het
+        ziekenhuis verlaat. 
+        <br><br>
+        Bespreek een kinderwens daarom reeds als u op gesprek komt op de pretransplantraadpleging. U kan en mag zwanger worden, maar STEEDS na overleg met de artsen, onder
+        strikte medische begeleiding en een aanpassing van uw medicatie voorafgaand aan de zwangerschap.
+    </p>
+    <p>
+    	<ul>
+        	<li>Wanneer mag ik terug op reis gaan?</li>
+        </ul>
+        De eerste maanden na een transplantatie kan u best nog niet op reis gaan. U lichaam moet nog herstellen van de operatie en zich aanpassen aan de medicatie die u neemt. U moet de eerste
+        maanden ook nog dikwijls naar het ziekenhuis komen ter controle. Na enkele maanden kan u echter zonder probleemen op reis gaan. Hou er wel rekening mee dat u een bestemming uitkiest waar
+        een goede hygiëne kan gegarandeerd worden.
+    </p>
+    <p>
+    	<b><i>Let op!</i></b> Zorg steeds dat u voldoende medicatie mee heeft op reis. Vraag daarom op voorhand al voldoende voorschriften aan uw arts. Vraag ook een attest aan uw aarts waarop
+        staat dat u altijd uw medicatie bij u moet houden.
+    </p>
+    <p>
+    	<b><i>Let op!</i></b> Neem zowel medicatie mee in uw handbagage als in uw reiskoffer. Op die manier heeft altijd medicatie mee in het geval dat er iets zou misgaan met uw reiskoffer.
+    </p>
+    
+    <h2 id="Mijn_donor"><b>5.</b> Mijn donor</h2>
+    
+    <p>
+    	Een laatste hoofdstukje willen we wijden aan uw donor. Sommige patiënten hebben veel vragen over hun donor. Wie was hij of zij? Hoe is hij/zij gestorven? Van waar kwam de donor? Het is
+        echter niet evident om op deze vragen een antwoord te kunnen geven. In België is de wetgeving namelijk zo dat de identiteit van donor en acceptor voor elkaar en hun familie geheim moet
+        blijven.
+        <br><br> 
+        Als hulpverleners krijgen wij ook nooit de identiteit van een donor te weten. De nabestaanden van uw donor ontmoeten of persoonlijk contacteren is dus niet mogelijk. Indien u
+        echter de behoefte heeft om een brief te schrijven of een boodschap door te geven aan de nabestaanden van uw donor, kan u dat altijd aan de transplantcoördinator van uw centrum bezorgen.
+        <br><br>
+        Hij/zij zal dit bezorgen aan het centrum van uw donor die op hun beurt dit kunnen doorgeven aan de nabestaanden van uw donor. Let wel dat u uw naam niet schrijft op een brief, want ook
+        omgekeerd is het niet toegestaan dat de nabestaanden de identiteit van de ontvangen personen kent. Contacteer de transplantcoördinator als u hier nog vragen rond heeft.
+    </p>
+    <h2 id="Tot_slot">Tot slot</h2>
+    
+    <p>
+    	Het leven na een niertransplantie brengt, naast het wegvallen van de dialyse, heel wat veranderingen met zich mee. Met deze brochure hebben we geprobeerd u zo goed mogelijk hierover te
+    	informeren. Belangrijk om te onthouden is dat u met al uw vragen steeds terecht kan bij alle leden van het transplantteam.
+    </p>
+</div>
+</body>
+</html>
