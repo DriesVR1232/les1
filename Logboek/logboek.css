@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#Titel{
+    font-size: 60px;
+    margin-left: 27%;
+    font-family: Georgia;
+    margin-top: 
+}
+#CenterBox{
+    font-family: Georgia;
+    border: 2px solid black;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 110%;
+    color: black;
+    background-color: lightgray;
+
+}
+#CenterBox h1{
+    margin-left: 40%
+}
+#CenterBox label{
+    margin-left: 30%;
+}
