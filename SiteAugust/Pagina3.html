@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina3</title>
+        <link rel="stylesheet" type="text/css" href="Pagina3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+<body>
+     <div class="Header" id="MijnHeader">
+        <a href="index.html">Home</a>
+        <a href="Pagina2.html" >Informatie patiënten</a>
+        <a href="Pagina3.html" class="active">Contacteer ons</a>
+        <a href="Pagina4.html">Info familie</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <script>
+    function myFunction() 
+    {
+        var x = document.getElementById("MijnHeader");
+        if (x.className === "Header") 
+        {
+            x.className += " responsive";
+        } 
+        else 
+        {
+            x.className = "Header";
+        }
+    }
+    </script>
+    <br>
+        <div class="Mail">
+
+        <!-- ik heb de php gelinkt in de adere pagina maar dit werkt niet. Dit is puur zodat ik een form gebruik.-->
+            <form action="Pagina3.html" method="POST">
+            <label>Uw Achternaam</label>
+            <br>
+            <input id="Achternaam" type="text" name="Achternaam" placeholder="Uw naam">
+            <br>
+            <br>
+            <label>Uw Voornaam</label>
+            <br>
+            <input id="Voornaam" type="text" name="Voornaam" placeholder="Uw voornaam">
+            <br>
+            <br>
+            <label>Het onderwerp</label>
+            <br>
+            <input id="Onderwerp" type="text" name="Onderwerp" placeholder="Onderwerp">
+            <br>
+            <br>
+            <label>Uw email</label>
+            <br>
+            <input id="Email" type="text" name="Email" placeholder="Uw Email">
+            <br>
+            <br>
+            <label>Uw Vraag</label>
+            <br>
+            <textarea id="Vraag" name="Vraag" placeholder="Uw vraag"></textarea>
+                <br>
+            <button id="Button" name="BtnVerstuur">Verstuur mail</button>
+        </form>
+    </div>
+</body>
+</html>
